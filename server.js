@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: ['https://your-frontend-url.vercel.app', 'http://localhost:3000']
+  origin: ['https://smm-services-frontend-fpon-111.vercel.app/', 'http://localhost:3000']
 }));
 app.use(bodyParser.json());
 
